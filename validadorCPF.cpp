@@ -42,8 +42,7 @@ int main(){
 	printf("Digite seu cpf:\n"); 
 	
 	for (int i=0; i < 11; i++){
-		printf("Digite um numero:\n");
-		scanf("%d", &cpf[i]); 
+		scanf("%1d", &cpf[i]); 
 	}
 
 	printf("\n");
